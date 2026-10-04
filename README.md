@@ -1,0 +1,47 @@
+# BÀI TẬP 1 - Tuần 1
+## 1. Thông tin sinh viên
+- Họ và tên: Thái Thanh Trúc
+- MSSV: 084306002719
+- Môn học: Lập trình di động
+- Tuần: 1
+## 2. Mục tiêu
+- Làm quen với Android Studio.
+- Tạo một project Android bằng Kotlin.
+- Thiết kế giao diện ứng dụng theo yêu cầu.
+- Chạy ứng dụng trên Android Emulator.
+- Làm quen với GitHub và quản lý source code.
+## 3. Nội dung bài tập
+### Câu 1. Mong muốn và định hướng của bạn sau khi học xong môn học là gì?
+Sau khi học xong môn Lập trình thiết bị di động, em mong muốn có thể nắm vững những kiến thức và kỹ năng cơ bản để phát triển một ứng dụng di động hoàn chỉnh, từ thiết kế giao diện, lập trình chức năng đến kết nối với cơ sở dữ liệu và các dịch vụ khác.
+Về định hướng lâu dài, em muốn trở thành một lập trình viên giỏi, có khả năng tự phát triển các sản phẩm và dự án phần mềm thực tế để tạo ra thu nhập. Bên cạnh lập trình ứng dụng, em cũng quan tâm đến lập trình mạng và lập trình nhúng. Em hy vọng những kiến thức về lập trình di động sẽ giúp em có nền tảng tốt hơn về lập trình, tư duy phát triển phần mềm và cách xây dựng một sản phẩm hoàn chỉnh.
+Trong tương lai, em muốn tiếp tục học hỏi, xây dựng các dự án cá nhân và tích lũy kinh nghiệm thực tế để tìm được công việc phù hợp với năng lực và định hướng của mình.
+### Câu 2. Theo bạn, trong tương lai gần (10 năm), lập trình di động có phát triển không? Giải thích tại sao?
+Theo em, trong 10 năm tới, lập trình di động vẫn sẽ tiếp tục phát triển và có nhu cầu cao.
+Thứ nhất, điện thoại thông minh và các thiết bị di động ngày càng phổ biến, được sử dụng trong nhiều lĩnh vực như tài chính, giáo dục, y tế, thương mại điện tử và giải trí. Vì vậy, nhu cầu xây dựng và phát triển các ứng dụng trên thiết bị di động vẫn sẽ tồn tại.
+Thứ hai, công nghệ di động không ngừng phát triển. Các ứng dụng trong tương lai có thể kết hợp với trí tuệ nhân tạo, điện toán đám mây, Internet of Things và các thiết bị thông minh. Điều này tạo ra nhiều hướng phát triển mới cho lập trình viên.
+Thứ ba, thiết bị di động ngày càng không chỉ được sử dụng để liên lạc mà còn trở thành một phần của hệ sinh thái thiết bị thông minh. Vì vậy, lập trình di động có thể kết nối với lập trình mạng, lập trình nhúng và các hệ thống khác.
+Tuy nhiên, em nghĩ công việc của lập trình viên di động trong tương lai cũng sẽ thay đổi. Các công cụ AI có thể hỗ trợ viết code và phát triển ứng dụng nhanh hơn, nên lập trình viên không chỉ cần biết viết code mà còn phải có tư duy giải quyết vấn đề, hiểu hệ thống và có khả năng xây dựng sản phẩm thực tế. Em sẽ cố gắng phấn đấu trau dồi bản thân và em thật sự hy vọng có thể được tiếp thu thật nhiều kiến thức từ thầy ạ, thật sự em rất cần một mentor dẫn dắt, việc tự mò mẫm khến em rất khó tiếp cận kiến thức mặc dù đã có AI nhưng Ai vẫn không thể nào truyền đạt một cách tự nhiên được ạ, em cảm ơn thầy vì đã truyền đạt những kiến thức bổ ích cho em ạ
+### Câu 3. Xây dựng giao diện ứng dụng
+Xây dựng ứng dụng Android có giao diện thông tin cá nhân theo mẫu được cung cấp.
+## 4. Công nghệ sử dụng
+- Android Studio
+- Kotlin
+- Jetpack Compose
+- Github
+## 5. Kết quả
+Ứng dụng chạy thành công trên Android Emulator
+### Ảnh Output
+![img.png](img.png)
+## 6. Source Code
+Source code chính của ứng dụng được đặt tại:
+`SourceCode/app/src/main/java/com/example/baitap1/MainActivity.kt`
+
+# Bài tập 2 - Tuần 1
+## 1. Mô hình giáo dục của HAA (Horowitz Andreessen Academy), ưu điểm và nhược điểm
+Mô hình giáo dục HAA (Horowitz Andreessen Academy) là một triết lý đào tạo hiện đại được khởi xướng bởi các nhà đầu tư công nghệ hàng đầu tại quỹ Andreessen Horowitz (a16z), tập trung vào việc thu hẹp khoảng cách giữa lý thuyết học thuật và thực tế vận hành công nghiệp. Mô hình này lấy người học làm trung tâm, chú trọng vào học tập qua dự án thực tế (project-based learning), tinh thần khởi nghiệp, và sự thích ứng nhanh chóng với các công nghệ đột phá như AI hay phần mềm hiện đại. Ưu điểm vượt trội của HAA là giúp người học tiếp cận tư duy thực chiến, cập nhật xu hướng công nghệ mới nhất từ những người đi đầu trong ngành, đồng thời rèn luyện khả năng giải quyết các bài toán phức tạp trong thực tế thay vì học thuộc lòng. Tuy nhiên, nhược điểm của mô hình này là đòi hỏi người học phải có tính tự giác và tư duy chủ động cực kỳ cao, thiếu đi sự bao quát hệ thống bài bản của giáo dục truyền thống, đồng thời có thể gây áp lực lớn đối với những sinh viên chưa có nền tảng vững chắc hoặc chưa quen với môi trường thay đổi nhanh.
+## 2. Sự thay đổi cách con người tiếp cận tri thức qua 3 thời kỳ (Trước Internet, Internet phổ biến, và AI tạo sinh)
+Sự tiến hóa của công nghệ đã tái định hình toàn bộ hành trình tiếp cận tri thức của con người qua ba giai đoạn lịch sử rõ rệt. Trong thời kỳ trước khi có Internet, việc tìm kiếm kiến thức hoàn toàn phụ thuộc vào sách vở, thư viện và người dạy, người học phải chủ động ghi nhớ lượng lớn thông tin dữ liệu trong đầu và vận dụng chúng một cách thủ công, tuyến tính. Đến thời kỳ Internet phổ biến, hành vi tìm kiếm chuyển sang các máy tra cứu như Google với nguồn dữ liệu khổng lồ, việc ghi nhớ giảm dần vai trò để nhường chỗ cho kỹ năng quản lý thông tin và lưu trữ đám mây, trong khi việc vận dụng đòi hỏi khả năng tổng hợp, lọc nhiễu và phân tích dữ liệu từ nhiều nguồn. Bước sang thời kỳ AI tạo sinh hiện nay, cách tìm kiếm đã nâng cấp thành tương tác hội thoại trực tiếp với các mô hình ngôn ngữ lớn để nhận câu trả lời tổng hợp tức thì, việc ghi nhớ gần như được ủy quyền cho máy móc (ngoại nhớ), và quá trình vận dụng kiến thức tập trung vào kỹ năng đặt câu hỏi (prompt engineering), phản biện kết quả của AI và sáng tạo trên nền tảng tri thức do AI gợi ý.
+## 3. Chúng ta cần học gì khi AI có thể làm gần như mọi thứ?
+Khi AI có khả năng đảm nhận hầu hết các tác vụ thực thi kỹ thuật và xử lý thông tin định tính lẫn định lượng, trọng tâm của việc học cần chuyển dịch từ "học cái gì" (học thuộc tri thức) sang "học cách học" và "học tư duy cấp cao". Người học không còn cần phải cạnh tranh với máy móc về tốc độ tính toán hay dung lượng bộ nhớ, mà thay vào đó phải tập trung vào việc học cách điều phối, giám sát và hợp tác với các hệ thống trí tuệ nhân tạo. Điều này bao gồm việc tiếp thu tri thức nền tảng vững chắc để có đủ năng lực thẩm định kết quả từ AI, học tư duy kiến trúc và thiết kế hệ thống (system design), cũng như làm chủ kỹ năng giải quyết vấn đề ở tầm chiến lược. Học tập trong kỷ nguyên AI chính là quá trình biến bản thân thành một "người điều hướng" xuất sắc, biết cách sử dụng AI như một công cụ nhân bản năng suất để tạo ra các giá trị mới.
+## 4. Những năng lực cần phát triển trong thời đại AI và lý do quan trọng
+Trong thời đại AI, các năng lực cốt lõi mà con người bắt buộc phải phát triển bao gồm: tư duy phản biện (critical thinking), năng lực sáng tạo độc bản, trí tuệ cảm xúc (EQ) cùng kỹ năng giao tiếp, và khả năng thích ứng linh hoạt (adaptability). Tư duy phản biện đóng vai trò sinh tử vì giúp con người kiểm chứng tính chính xác, phát hiện sai lệch (hallucination) và định kiến trong các đầu ra của AI. Năng lực sáng tạo và tư duy phản chiếu giúp tạo ra những ý tưởng đột phá vượt ngoài các mô hình dữ liệu có sẵn của máy tính. Trong khi đó, trí tuệ cảm xúc và kỹ năng kết nối giữa con người với con người là điều AI hoàn toàn không thể thay thế, giúp xây dựng sự tin tưởng và lãnh đạo tổ chức. Cuối cùng, khả năng tự học và thích ứng liên tục là "vũ khí" quan trọng nhất để không bị đào thải trước tốc độ thay đổi chóng mặt của công nghệ.
