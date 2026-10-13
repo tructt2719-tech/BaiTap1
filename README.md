@@ -45,3 +45,27 @@ Sự tiến hóa của công nghệ đã tái định hình toàn bộ hành tr�
 Khi AI có khả năng đảm nhận hầu hết các tác vụ thực thi kỹ thuật và xử lý thông tin định tính lẫn định lượng, trọng tâm của việc học cần chuyển dịch từ "học cái gì" (học thuộc tri thức) sang "học cách học" và "học tư duy cấp cao". Người học không còn cần phải cạnh tranh với máy móc về tốc độ tính toán hay dung lượng bộ nhớ, mà thay vào đó phải tập trung vào việc học cách điều phối, giám sát và hợp tác với các hệ thống trí tuệ nhân tạo. Điều này bao gồm việc tiếp thu tri thức nền tảng vững chắc để có đủ năng lực thẩm định kết quả từ AI, học tư duy kiến trúc và thiết kế hệ thống (system design), cũng như làm chủ kỹ năng giải quyết vấn đề ở tầm chiến lược. Học tập trong kỷ nguyên AI chính là quá trình biến bản thân thành một "người điều hướng" xuất sắc, biết cách sử dụng AI như một công cụ nhân bản năng suất để tạo ra các giá trị mới.
 ## 4. Những năng lực cần phát triển trong thời đại AI và lý do quan trọng
 Trong thời đại AI, các năng lực cốt lõi mà con người bắt buộc phải phát triển bao gồm: tư duy phản biện (critical thinking), năng lực sáng tạo độc bản, trí tuệ cảm xúc (EQ) cùng kỹ năng giao tiếp, và khả năng thích ứng linh hoạt (adaptability). Tư duy phản biện đóng vai trò sinh tử vì giúp con người kiểm chứng tính chính xác, phát hiện sai lệch (hallucination) và định kiến trong các đầu ra của AI. Năng lực sáng tạo và tư duy phản chiếu giúp tạo ra những ý tưởng đột phá vượt ngoài các mô hình dữ liệu có sẵn của máy tính. Trong khi đó, trí tuệ cảm xúc và kỹ năng kết nối giữa con người với con người là điều AI hoàn toàn không thể thay thế, giúp xây dựng sự tin tưởng và lãnh đạo tổ chức. Cuối cùng, khả năng tự học và thích ứng liên tục là "vũ khí" quan trọng nhất để không bị đào thải trước tốc độ thay đổi chóng mặt của công nghệ.
+
+# Bài tập 1 (Vòng lặp for và kiểu nullable) - Tuần 2
+Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android hiển thị danh sách sinh viên và xử lý các trường thông tin chưa được cập nhật.
+Ứng dụng được xây dựng bằng **Kotlin và Jetpack Compose** trên Android Studio.
+## 1. Mục tiêu
+- Tạo lớp `Student` để quản lý thông tin sinh viên.
+- Sử dụng kiểu nullable `String?` cho email và số điện thoại.
+- Khởi tạo danh sách gồm 5 sinh viên với một số thông tin bị thiếu (`null`).
+- Sử dụng vòng lặp `for` để duyệt danh sách và hiển thị thông tin.
+- Thay thế dữ liệu `null` bằng thông báo "Chưa cập nhật".
+- Đếm số sinh viên chưa có email và hiển thị kết quả cuối danh sách.
+## 2. Công nghệ sử dụng
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+## 4. Kết quả đạt được
+Ứng dụng hiển thị danh sách 5 sinh viên dưới dạng các thẻ thông tin, bao gồm họ tên, email và số điện thoại.
+Khi email hoặc số điện thoại chưa có dữ liệu, ứng dụng hiển thị "Chưa cập nhật". Phần cuối giao diện hiển thị tổng số sinh viên và số sinh viên thiếu email.
+Với dữ liệu mẫu được khai báo trong chương trình, kết quả thống kê là:
+- Tổng số sinh viên: 5.
+- Số sinh viên thiếu email: 2.
+## 6. Bài học
+Qua bài tập, em thực hành cách khai báo lớp dữ liệu, xử lý giá trị nullable, sử dụng vòng lặp `for` và xây dựng giao diện Android bằng Jetpack Compose. Bài tập giúp em củng cố được kiến thức về xử lý dữ liệu thiếu và trình bày dữ liệu trên giao diện di động.
