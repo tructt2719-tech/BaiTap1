@@ -69,3 +69,37 @@ Với dữ liệu mẫu được khai báo trong chương trình, kết quả th
 - Số sinh viên thiếu email: 2.
 ## 6. Bài học
 Qua bài tập, em thực hành cách khai báo lớp dữ liệu, xử lý giá trị nullable, sử dụng vòng lặp `for` và xây dựng giao diện Android bằng Jetpack Compose. Bài tập giúp em củng cố được kiến thức về xử lý dữ liệu thiếu và trình bày dữ liệu trên giao diện di động.
+# Bài tập 2 – Câu lệnh if / else - Tuần 2
+Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android phân loại học lực dựa trên điểm số cho trước.
+Ứng dụng hiển thị điểm trung bình, xếp loại học lực tương ứng và kiểm tra kết quả phân loại với nhiều mức điểm khác nhau. Chương trình được xây dựng bằng **Kotlin và Jetpack Compose** trên Android Studio.
+## 1. Mục tiêu
+- Khai báo biến điểm có giá trị ban đầu là `8.5`.
+- Xây dựng hàm nhận điểm số và trả về kết quả xếp loại học lực.
+- Sử dụng cấu trúc điều kiện `if / else if / else`.
+- Kiểm tra các trường hợp điểm hợp lệ và không hợp lệ.
+- Lựa chọn màu nền và màu chữ tương ứng với từng mức xếp loại.
+- Hiển thị điểm số, kết quả học lực và danh sách kiểm tra thêm trên giao diện Android.
+## 2. Quy tắc phân loại học lực
+| Điều kiện điểm | Xếp loại |
+|---|---|
+| Nhỏ hơn 0 hoặc lớn hơn 10 | Không hợp lệ |
+| Từ 8.0 trở lên | Giỏi |
+| Từ 6.5 đến dưới 8.0 | Khá |
+| Từ 5.0 đến dưới 6.5 | Trung bình |
+| Dưới 5.0 | Yếu |
+## 3. Công nghệ sử dụng
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+## 5. Kết quả đạt được
+Ứng dụng hiển thị điểm chính là `8.5` và kết quả xếp loại **Giỏi**. Phần kiểm tra thêm cho phép quan sát kết quả phân loại của các điểm số:
+- Điểm 9: Giỏi.
+- Điểm 7: Khá.
+- Điểm 5.5: Trung bình.
+- Điểm 3: Yếu.
+- Điểm 11: Không hợp lệ.
+
+Màu sắc của kết quả được thay đổi tương ứng với từng mức học lực, giúp giao diện trực quan và dễ theo dõi.
+## 6. Bài học
+Qua bài tập, em thực hành cách sử dụng cấu trúc điều kiện `if / else`, xây dựng hàm xử lý dữ liệu và kiểm tra tính hợp lệ của điểm số. Đồng thời, em vận dụng Jetpack Compose để hiển thị kết quả phân loại học lực bằng giao diện trực quan trên thiết bị Android.
