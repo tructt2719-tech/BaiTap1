@@ -141,3 +141,40 @@ Với dữ liệu mẫu:
 Chương trình không đưa sinh viên chưa có điểm vào phép tính điểm trung bình.
 ## 5. Bài học
 Qua bài tập, em vận dụng tổng hợp kiến thức về lớp dữ liệu, kiểu nullable, vòng lặp `for` và cấu trúc điều kiện `if`. Bài tập giúp em củng cố kỹ năng xử lý dữ liệu thiếu, tái sử dụng hàm phân loại học lực và xây dựng giao diện bảng điểm bằng Jetpack Compose.
+# Bài tập 4 – Thực hành 3: Máy tính cơ bản - Tuần 2
+Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android thực hiện các phép toán cơ bản trên hai số được nhập từ người dùng.
+Ứng dụng cho phép người dùng nhập hai số, lựa chọn phép toán cộng, trừ, nhân hoặc chia và hiển thị kết quả ngay trên giao diện. Chương trình sử dụng các trường nhập liệu, quản lý trạng thái (state), xử lý sự kiện nhấn nút và cấu trúc điều kiện để thực hiện phép tính, đồng thời kiểm tra dữ liệu đầu vào và xử lý trường hợp chia cho 0.
+Ứng dụng được xây dựng bằng **Kotlin và Jetpack Compose** trên Android Studio.
+## 1. Mục tiêu
+- Tạo giao diện nhập hai số bằng `OutlinedTextField`.
+- Sử dụng biến trạng thái để lưu trữ dữ liệu đầu vào, phép toán được chọn và kết quả.
+- Tạo bốn nút tương ứng với các phép toán cộng, trừ, nhân và chia.
+- Sử dụng hàm để xử lý và thực hiện phép tính.
+- Sử dụng biểu thức `when` để lựa chọn phép toán phù hợp.
+- Hiển thị kết quả tính toán ngay trên giao diện.
+- Kiểm tra dữ liệu nhập không hợp lệ bằng `toDoubleOrNull()`.
+- Xử lý trường hợp chia cho 0 và hiển thị thông báo lỗi phù hợp.
+## 2. Các phép toán được hỗ trợ
+| Phép toán | Ký hiệu | Ví dụ |
+|---|---|---|
+| Cộng | `+` | 4 + 4 = 8 |
+| Trừ | `-` | 4 - 4 = 0 |
+| Nhân | `*` | 4 × 4 = 16 |
+| Chia | `/` | 4 / 4 = 1 |
+
+Nếu dữ liệu nhập không hợp lệ hoặc số chia bằng 0, ứng dụng sẽ hiển thị thông báo phù hợp thay vì thực hiện phép tính không hợp lệ.
+## 3. Công nghệ sử dụng
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+## 4. Kết quả đạt được
+Ứng dụng hiển thị màn hình máy tính cơ bản gồm hai ô nhập số, bốn nút phép toán có màu sắc riêng biệt và khu vực hiển thị kết quả.
+Với dữ liệu mẫu gồm hai số 4 và 4, kết quả đạt được:
+
+- Phép cộng: 8.
+- Phép trừ: 0.
+- Phép nhân: 16.
+- Phép chia: 1.
+
+Ngoài ra, ứng dụng có thể kiểm tra dữ liệu đầu vào, thông báo khi người dùng nhập số không hợp lệ hoặc thực hiện phép chia cho 0, giúp việc sử dụng ứng dụng an toàn và rõ ràng hơn.
