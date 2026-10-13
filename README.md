@@ -103,3 +103,41 @@ Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng A
 Màu sắc của kết quả được thay đổi tương ứng với từng mức học lực, giúp giao diện trực quan và dễ theo dõi.
 ## 6. Bài học
 Qua bài tập, em thực hành cách sử dụng cấu trúc điều kiện `if / else`, xây dựng hàm xử lý dữ liệu và kiểm tra tính hợp lệ của điểm số. Đồng thời, em vận dụng Jetpack Compose để hiển thị kết quả phân loại học lực bằng giao diện trực quan trên thiết bị Android.
+# Bài tập 3 – Tổng hợp: for + if + nullable - Tuần 2
+Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android hiển thị bảng điểm lớp và thống kê kết quả học tập của sinh viên.
+Ứng dụng quản lý danh sách sinh viên, trong đó có trường hợp sinh viên chưa có điểm. Chương trình sử dụng vòng lặp `for`, cấu trúc điều kiện `if` và kiểu dữ liệu nullable để xử lý thông tin, phân loại học lực và tính toán các chỉ số thống kê.
+Ứng dụng được xây dựng bằng **Kotlin và Jetpack Compose** trên Android Studio.
+## 1. Mục tiêu
+- Khai báo lớp `Student` gồm họ tên và điểm số.
+- Sử dụng kiểu nullable `Double?` để biểu diễn trường hợp sinh viên chưa có điểm.
+- Khởi tạo danh sách gồm 5 sinh viên với các mức điểm khác nhau.
+- Sử dụng vòng lặp `for` để duyệt danh sách và hiển thị thông tin.
+- Sử dụng điều kiện `if` để phân loại học lực.
+- Hiển thị thông báo "Chưa có điểm" khi điểm số là `null`.
+- Tính điểm trung bình lớp, số sinh viên Giỏi, số sinh viên chưa có điểm và điểm cao nhất.
+## 2. Quy tắc phân loại học lực
+| Điều kiện điểm | Xếp loại |
+|---|---|
+| Nhỏ hơn 0 hoặc lớn hơn 10 | Không hợp lệ |
+| Từ 8.0 trở lên | Giỏi |
+| Từ 6.5 đến dưới 8.0 | Khá |
+| Từ 5.0 đến dưới 6.5 | Trung bình |
+| Dưới 5.0 | Yếu |
+
+Sinh viên chưa có điểm được hiển thị riêng với trạng thái "Chưa có điểm".
+## 3. Công nghệ sử dụng
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+## 4. Kết quả đạt được
+Ứng dụng hiển thị bảng điểm của 5 sinh viên và phần thống kê tổng quan của lớp.
+Với dữ liệu mẫu:
+- Điểm trung bình của các sinh viên đã có điểm: 6.63.
+- Số sinh viên Giỏi: 1.
+- Số sinh viên chưa có điểm: 1.
+- Điểm cao nhất: 9.0.
+
+Chương trình không đưa sinh viên chưa có điểm vào phép tính điểm trung bình.
+## 5. Bài học
+Qua bài tập, em vận dụng tổng hợp kiến thức về lớp dữ liệu, kiểu nullable, vòng lặp `for` và cấu trúc điều kiện `if`. Bài tập giúp em củng cố kỹ năng xử lý dữ liệu thiếu, tái sử dụng hàm phân loại học lực và xây dựng giao diện bảng điểm bằng Jetpack Compose.
